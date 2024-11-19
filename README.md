@@ -1,6 +1,6 @@
 # Ex03 Time Table
 ## Date:
-
+16/11/2024
 ## AIM
 To write a html webpage page to display your slot timetable.
 
@@ -24,7 +24,58 @@ Add your timetable using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
-
+```
+<!DOCTYPE html>
+<html>
+    <head><img src="D:\FWAD Codes\Excercises\Time_Table_Ex_03\logo.png" alt="Logo"></head>
+    <body>
+        <table align="center" border="2" cellpadding="10">
+            <caption>TIMETABLE of Joel-24900156</caption>
+            <tr>
+                <th bgcolor="Black"></th><th>8 am - 10 am</th><th>10 am - 12 noon</th><th>12 - 1 pm</th><th>1 pm - 3 pm</th>
+            </tr>
+            <tr>
+                <th>Monday</th>
+                <td align="center" bgcolor="biege">-</td>
+                <td align="center" bgcolor="green">EVS</td>
+                <th rowspan="6"bgcolor="lightgreen">Lunch</th>
+                <td align="center" bgcolor="blue">French</td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td align="center" bgcolor="biege">-</td>
+                <td align="center" bgcolor="cyan">Maths</td>
+                <td align="center" bgcolor="red">FWAD</td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td align="center" bgcolor="biege">-</td>
+                <td align="center" bgcolor="yellow">Python</td>
+                <td align="center" bgcolor="green">Mentor</td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td align="center" bgcolor="blue">French</td>
+                <td align="center" bgcolor="biege">-</td>
+                <td align="center" bgcolor="red">FWAD</td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td align="center" bgcolor="biege">-</td>
+                <td align="center" bgcolor="green">CD</td>
+                <td align="center" bgcolor="yellow">Python</td>
+            </tr>
+            <tr>
+                <th>Saturday</th>
+                <td align="center" bgcolor="blue">French</td>
+                <td align="center" bgcolor="red">FWAD</td>
+                <td align="center" bgcolor="cyan">Maths</td>
+            </tr>
+        </table>
+        
+    </body>
+</html>
+```
 
 ## OUTPUT
 
