@@ -27,7 +27,7 @@ Execute the program using runserver command.
 ```
 <!DOCTYPE html>
 <html>
-    <head><img src="D:\FWAD Codes\Excercises\Time_Table_Ex_03\logo.png" alt="Logo"></head>
+    <header><center><img src="logo.png" alt="Logo" height="200" width="800"></center></header>
     <body>
         <table align="center" border="2" cellpadding="10">
             <caption>TIMETABLE of Joel-24900156</caption>
@@ -75,10 +75,11 @@ Execute the program using runserver command.
         
     </body>
 </html>
+
 ```
 
 ## OUTPUT
-
+![alt text](image.png)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
